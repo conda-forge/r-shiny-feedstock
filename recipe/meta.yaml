@@ -33,6 +33,10 @@ requirements:
     - r-mime >=0.3
     - r-sourcetools
     - r-xtable
+    - r-later
+    - r-promises
+    - r-crayon
+    - r-rlang
 
   run:
     - r-base
@@ -44,6 +48,10 @@ requirements:
     - r-mime >=0.3
     - r-sourcetools
     - r-xtable
+    - r-later
+    - r-promises
+    - r-crayon
+    - r-rlang
 
 test:
   commands:
