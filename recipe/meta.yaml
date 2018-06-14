@@ -1,4 +1,4 @@
-{% set version = '1.0.5' %}
+{% set version = "1.1.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/shiny_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/shiny/shiny_{{ version }}.tar.gz
-  sha256: 20e25f3f72f3608a2151663f7836f2e0c6da32683a555d7541063ae7a935fa42
+  sha256: 70b564cd1b0ba89bae10bc94c6a3b50bd8ffb1a7d85f4aa41b2949e0ea245c89
 
 build:
   number: 0
@@ -33,6 +33,10 @@ requirements:
     - r-mime >=0.3
     - r-sourcetools
     - r-xtable
+    - r-later
+    - r-promises
+    - r-crayon
+    - r-rlang
 
   run:
     - r-base
@@ -44,6 +48,10 @@ requirements:
     - r-mime >=0.3
     - r-sourcetools
     - r-xtable
+    - r-later
+    - r-promises
+    - r-crayon
+    - r-rlang
 
 test:
   commands:
