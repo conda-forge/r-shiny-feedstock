@@ -1,4 +1,4 @@
-{% set version = '1.2.0' %}
+{% set version = "1.3.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/shiny_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/shiny/shiny_{{ version }}.tar.gz
-  sha256: fece84fdeb6e9009d4f6b95b4e7c1bea1754ecc9dd79685dc17451f6e54666f1
+  sha256: 41aae0a025510a1dec0e4e27c02ebbedddda9d3dac88325aaf35cf43377be4da
 
 build:
   noarch: generic
-  number: 1000
+  number: 0
 
   rpaths:
     - lib/R/lib/
