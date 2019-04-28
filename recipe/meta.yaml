@@ -1,4 +1,4 @@
-{% set version = '1.3.0' %}
+{% set version = '1.3.2' %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shiny_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shiny/shiny_{{ version }}.tar.gz
-  sha256: 41aae0a025510a1dec0e4e27c02ebbedddda9d3dac88325aaf35cf43377be4da
+  sha256: 28b851ae6c196ca845f6e815c1379247595ac123a4faa10a16533d1a9ce0c24f
 
 build:
   merge_build_host: True  # [win]
@@ -74,7 +74,7 @@ extra:
 # Package: shiny
 # Type: Package
 # Title: Web Application Framework for R
-# Version: 1.3.0
+# Version: 1.3.2
 # Authors@R: c( person("Winston", "Chang", role = c("aut", "cre"), email = "winston@rstudio.com"), person("Joe", "Cheng", role = "aut", email = "joe@rstudio.com"), person("JJ", "Allaire", role = "aut", email = "jj@rstudio.com"), person("Yihui", "Xie", role = "aut", email = "yihui@rstudio.com"), person("Jonathan", "McPherson", role = "aut", email = "jonathan@rstudio.com"), person(family = "RStudio", role = "cph"), person(family = "jQuery Foundation", role = "cph", comment = "jQuery library and jQuery UI library"), person(family = "jQuery contributors", role = c("ctb", "cph"), comment = "jQuery library; authors listed in inst/www/shared/jquery-AUTHORS.txt"), person(family = "jQuery UI contributors", role = c("ctb", "cph"), comment = "jQuery UI library; authors listed in inst/www/shared/jqueryui/AUTHORS.txt"), person("Mark", "Otto", role = "ctb", comment = "Bootstrap library"), person("Jacob", "Thornton", role = "ctb", comment = "Bootstrap library"), person(family = "Bootstrap contributors", role = "ctb", comment = "Bootstrap library"), person(family = "Twitter, Inc", role = "cph", comment = "Bootstrap library"), person("Alexander", "Farkas", role = c("ctb", "cph"), comment = "html5shiv library"), person("Scott", "Jehl", role = c("ctb", "cph"), comment = "Respond.js library"), person("Stefan", "Petre", role = c("ctb", "cph"), comment = "Bootstrap-datepicker library"), person("Andrew", "Rowls", role = c("ctb", "cph"), comment = "Bootstrap-datepicker library"), person("Dave", "Gandy", role = c("ctb", "cph"), comment = "Font-Awesome font"), person("Brian", "Reavis", role = c("ctb", "cph"), comment = "selectize.js library"), person("Kristopher Michael", "Kowal", role = c("ctb", "cph"), comment = "es5-shim library"), person(family = "es5-shim contributors", role = c("ctb", "cph"), comment = "es5-shim library"), person("Denis", "Ineshin", role = c("ctb", "cph"), comment = "ion.rangeSlider library"), person("Sami", "Samhuri", role = c("ctb", "cph"), comment = "Javascript strftime library"), person(family = "SpryMedia Limited", role = c("ctb", "cph"), comment = "DataTables library"), person("John", "Fraser", role = c("ctb", "cph"), comment = "showdown.js library"), person("John", "Gruber", role = c("ctb", "cph"), comment = "showdown.js library"), person("Ivan", "Sagalaev", role = c("ctb", "cph"), comment = "highlight.js library"), person(family = "R Core Team", role = c("ctb", "cph"), comment = "tar implementation from R") )
 # Description: Makes it incredibly easy to build interactive web applications with R. Automatic "reactive" binding between inputs and outputs and extensive prebuilt widgets make it possible to build beautiful, responsive, and powerful applications with minimal effort.
 # License: GPL-3 | file LICENSE
@@ -87,8 +87,8 @@ extra:
 # RoxygenNote: 6.1.1
 # Encoding: UTF-8
 # NeedsCompilation: no
-# Packaged: 2019-03-29 22:27:04 UTC; winston
+# Packaged: 2019-04-19 16:39:03 UTC; winston
 # Author: Winston Chang [aut, cre], Joe Cheng [aut], JJ Allaire [aut], Yihui Xie [aut], Jonathan McPherson [aut], RStudio [cph], jQuery Foundation [cph] (jQuery library and jQuery UI library), jQuery contributors [ctb, cph] (jQuery library; authors listed in inst/www/shared/jquery-AUTHORS.txt), jQuery UI contributors [ctb, cph] (jQuery UI library; authors listed in inst/www/shared/jqueryui/AUTHORS.txt), Mark Otto [ctb] (Bootstrap library), Jacob Thornton [ctb] (Bootstrap library), Bootstrap contributors [ctb] (Bootstrap library), Twitter, Inc [cph] (Bootstrap library), Alexander Farkas [ctb, cph] (html5shiv library), Scott Jehl [ctb, cph] (Respond.js library), Stefan Petre [ctb, cph] (Bootstrap-datepicker library), Andrew Rowls [ctb, cph] (Bootstrap-datepicker library), Dave Gandy [ctb, cph] (Font-Awesome font), Brian Reavis [ctb, cph] (selectize.js library), Kristopher Michael Kowal [ctb, cph] (es5-shim library), es5-shim contributors [ctb, cph] (es5-shim library), Denis Ineshin [ctb, cph] (ion.rangeSlider library), Sami Samhuri [ctb, cph] (Javascript strftime library), SpryMedia Limited [ctb, cph] (DataTables library), John Fraser [ctb, cph] (showdown.js library), John Gruber [ctb, cph] (showdown.js library), Ivan Sagalaev [ctb, cph] (highlight.js library), R Core Team [ctb, cph] (tar implementation from R)
 # Maintainer: Winston Chang <winston@rstudio.com>
 # Repository: CRAN
-# Date/Publication: 2019-04-07 09:30:03 UTC
+# Date/Publication: 2019-04-22 16:00:09 UTC
