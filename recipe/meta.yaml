@@ -38,6 +38,9 @@ requirements:
     - r-rlang >=0.4.0
     - r-sourcetools
     - r-xtable
+    - r-withr
+    - r-commonmark >=1.7
+    - r-glue >=1.3.2
   run:
     - r-base
     - r-r6 >=2.0
@@ -53,6 +56,9 @@ requirements:
     - r-rlang >=0.4.0
     - r-sourcetools
     - r-xtable
+    - r-withr
+    - r-commonmark >=1.7
+    - r-glue >=1.3.2
 
 test:
   commands:
@@ -61,10 +67,11 @@ test:
 
 about:
   home: http://shiny.rstudio.com
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Makes it incredibly easy to build interactive web applications with R. Automatic "reactive" binding between inputs and outputs and extensive prebuilt widgets make it possible to build beautiful, responsive, and powerful applications with minimal effort.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
