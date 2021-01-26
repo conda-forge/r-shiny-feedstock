@@ -3,13 +3,11 @@ About r-shiny
 
 Home: http://shiny.rstudio.com
 
-Package license: GPL-3
+Package license: GPL-3.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shiny-feedstock/blob/master/LICENSE.txt)
 
 Summary: Makes it incredibly easy to build interactive web applications with R. Automatic "reactive" binding between inputs and outputs and extensive prebuilt widgets make it possible to build beautiful, responsive, and powerful applications with minimal effort.
-
-
 
 Current build status
 ====================
