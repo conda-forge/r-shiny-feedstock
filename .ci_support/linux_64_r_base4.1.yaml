@@ -1,7 +1,7 @@
 cdt_name:
 - cos6
 channel_sources:
-- conda-forge,defaults
+- conda-forge
 channel_targets:
 - conda-forge main
 cran_mirror:
@@ -14,8 +14,6 @@ pin_run_as_build:
     max_pin: x.x
 r_base:
 - '4.1'
-target_platform:
-- linux-64
 zip_keys:
 - - cdt_name
   - docker_image

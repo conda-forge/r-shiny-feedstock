@@ -1,7 +1,7 @@
 About r-shiny
 =============
 
-Home: http://shiny.rstudio.com
+Home: https://shiny.rstudio.com/
 
 Package license: GPL-3.0-only
 
