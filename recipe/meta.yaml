@@ -1,4 +1,4 @@
-{% set version = "1.7.5" %}
+{% set version = "1.7.5.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shiny_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shiny/shiny_{{ version }}.tar.gz
-  sha256: eddb971b22e634b78ee24829f5fe6d2f7f87ec38538a93fdfedc45a706928a40
+  sha256: 2023d91cc8039580752f6ecc5010d4419b7d928724ce5b10b93a3b48e1e6fb46
 
 build:
   merge_build_host: true  # [win]
