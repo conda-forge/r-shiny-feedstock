@@ -1,4 +1,4 @@
-{% set version = "1.14.0" %}
+{% set version = "1.15.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shiny_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shiny/shiny_{{ version }}.tar.gz
-  sha256: 4a6945ed450effdb90b44ca0439e241f13488af59508be1c2fdab3f4de9dad11
+  sha256: 64e4916562bede60a1420369dc1b83156b56e57077b0f13518850449f1edb54b
 
 build:
   number: 0
